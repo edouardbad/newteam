@@ -1,0 +1,62 @@
+
+header, footer
+{
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+	text-align: center;
+}
+main
+{
+	width:80%;
+	margin:0 auto;
+}
+header div
+{
+	display: flex;
+	justify-content: space-around;
+}
+header img
+{
+	width:60px;
+}
+@media screen and (min-width:768px)
+{
+	h1
+	{
+		text-align: center;
+	}
+	#logo, nav
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width:50%;
+	}
+	span
+	{
+		display: inline-block;
+	}
+}
+@media screen and (min-width:1024px)
+{
+	#logo
+	{
+		height: 10rem;
+		margin-left: 0;
+	}
+	article
+	{
+		display: inline-block;
+		width: 20%;
+		margin: 5px;
+	}
+	.plus
+	{
+		display: inline-block;
+		width: 40%;
+	}
+	.video
+	{
+		display: inline-block;
+		width: 40%
+	}
+}
